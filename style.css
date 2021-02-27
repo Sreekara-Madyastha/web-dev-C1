@@ -1,0 +1,41 @@
+body{
+  box-shadow: inset 0 0 0 100vw hsla(257, 40%, 49%,0.8);
+  background:  url('../Dev/images/bg-desktop.jpg.svg')  center center no-repeat;
+  background-size: cover;
+  color: white;
+  min-height: 105vh;
+  display: flex;
+}
+.headings{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+.title-1{
+    font-weight: bolder;
+    font-family:sans-serif ;
+    color:beige;
+    margin: 50px 50px;
+}
+.tab-image{
+  float: left;
+  margin-left: 5%;
+  width: auto;
+}
+.the-info-block{
+  margin-top: 10%;
+  margin-left: 5%;
+  float: right;
+  width: 30%;
+}
+.button input[type="submit"]{
+  margin-left: 150px;
+  margin-top: 50px;
+  padding: 20px 50px;
+  color: dimgrey;
+  border-radius: 20px;
+  font-size: larger;
+}
+.button :hover{
+  background-color: indianred;
+  color:black;
+}
